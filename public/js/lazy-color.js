@@ -8,11 +8,13 @@ $(document).ready(function() {
     $('.scss').hide();
     $('.variable').hide();
 
+    new Clipboard('.button');
+
     $('body').click(function() {
         res = lazy.init();
         color = "#" + res[0].toUpperCase();
         name = res[1].toUpperCase();
-        _var = "$" + name + ": " + color + ";";
+        _var = "$" + name.toLowerCase() + ": " + color + ";";
         $(this).css('background-color', color);
         $('.scss').show();
         $('#color').html(color);
