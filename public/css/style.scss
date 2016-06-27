@@ -23,11 +23,22 @@ body {
     height: 100vh;
     max-height: 100%;
 }
+.button {
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    font-family: 'Nunito';
+    font-size: 2.3rem;
+    margin-top: 13px;
+    outline: none;
+    padding: 2% 5%;
+}
+.button:hover {
+    cursor: crosshair;
+    border-bottom: 2px solid #fff;
+}
 .colors {
     margin-top: 5%;
-}
-.colors:hover {
-    cursor: crosshair;
 }
 .hit-box {
     @include pos;
