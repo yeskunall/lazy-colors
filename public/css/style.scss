@@ -2,8 +2,8 @@
 @mixin pos {
     left: 50%;
     position: absolute;
-    top: 20%;
-    transform: translate(-50%,-20%);
+    top: 30%;
+    transform: translate(-50%,-30%);
 }
 * {
     box-sizing: border-box;
@@ -26,12 +26,14 @@ body {
 .button {
     background-color: inherit;
     border: none;
+    border-bottom: 2px solid transparent;
     color: #fff;
     font-family: 'Nunito';
     font-size: 2.3rem;
-    margin-top: 13px;
+    margin-top: 15px;
     outline: none;
-    padding: 2% 5%;
+    padding: 2% 3%;
+    transition: 0.3s ease-in-out;
 }
 .button:hover {
     cursor: crosshair;

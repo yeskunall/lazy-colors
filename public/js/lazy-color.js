@@ -8,19 +8,25 @@ $(document).ready(function() {
     $('.scss').hide();
     $('.variable').hide();
 
-    new Clipboard('.button');
+    init();
 
-    $('body').click(function() {
-        res = lazy.init();
+    function init() {
+        res = lazy.run();
         color = "#" + res[0].toUpperCase();
         name = res[1].toUpperCase();
         _var = "$" + name.toLowerCase() + ": " + color + ";";
-        $(this).css('background-color', color);
+        $('body').css('background-color', color);
         $('.scss').show();
         $('#color').html(color);
         $('#name').html(name);
         $('.variable').show();
         $('#var').html(_var);
+    }
+
+    new Clipboard('.button');
+
+    $('body').click(function() {
+        init();
     });
 
 });
@@ -180,7 +186,7 @@ names = [
 ];
 
 var lazy = {
-    init: function() {
+    run: function() {
         var index;
         index = Math.floor(names.length * Math.random());
         return names[index];
