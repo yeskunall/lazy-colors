@@ -105,7 +105,24 @@ names = [
     ["00008b", "DarkBlue"],
     ["000080", "Navy"],
     ["191970", "MidnightBlue"],
-
+    // BROWN
+    ["fff8dc", "CornSilk"],
+    ["ffebcd", "BlanchedAlmond"],
+    ["ffe4c4", "Bisque"],
+    ["ffdead", "Navajowhite"],
+    ["f5deb3", "Wheat"],
+    ["deb887", "BurlyWood"],
+    ["d2b48c", "Tan"],
+    ["bc8f8f", "RosyBrown"],
+    ["f4a460", "SandyBrown"],
+    ["daa520", "Goldenrod"],
+    ["b8860b", "DarkGoldenrod"],
+    ["cd853f", "Peru"],
+    ["d2691e", "Chocolate"],
+    ["8b4513", "Saddlebrown"],
+    ["a0522d", "Sienna"],
+    ["a52a2a", "Brown"],
+    ["800000", "Maroon"],
 ];
 
 var lazy = {
