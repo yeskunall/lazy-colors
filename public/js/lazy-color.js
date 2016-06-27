@@ -1,8 +1,19 @@
 /* jshint esversion: 6 */
 
 $(document).ready(function() {
-    lazy.init();
-    
+
+    $('.scss').hide();
+
+    $('body').click(function() {
+        res = lazy.init();
+        color = "#" + res[0].toUpperCase();
+        name = res[1].toUpperCase();
+        $(this).css('background-color', color);
+        $('.scss').show();
+        $('#color').html(color);
+        $('#name').html(name);
+    });
+
 });
 
 names = [
@@ -22,7 +33,7 @@ names = [
     ["ff69b4", "HotPink"],
     ["ff1493", "DeepPink"],
     ["c71585", "MediumVioletRed"],
-    ["db7093", "PaleVioltedRed"],
+    ["db7093", "PaleVioletRed"],
     // ORANGE
     ["ff7f50", "Coral"],
     ["ff6347", "Tomato"],
@@ -161,7 +172,7 @@ names = [
 
 var lazy = {
     init: function() {
-        let index;
+        var index;
         index = Math.floor(names.length * Math.random());
         return names[index];
     },
