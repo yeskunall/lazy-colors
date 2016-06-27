@@ -1,0 +1,24 @@
+{
+  "name": "lazy-colors",
+  "version": "0.0.1",
+  "description": "Lazy Colors — when you don't feel like naming your SCSS color variables",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeskunall/lazy-colors.git"
+  },
+  "keywords": [],
+  "author": "Kunall Banerjee | @iamxypto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeskunall/lazy-colors/issues"
+  },
+  "homepage": "http://lazycolors.surge.sh/",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
