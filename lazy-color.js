@@ -141,6 +141,17 @@ names = [
     ["faf0e6", "Linen"],
     ["fff0f5", "LavenderBlush"],
     ["ffe4e1", "MistyRose"],
+    // GRAY
+    ["dcdcdc", "Gainsboro"],
+    ["d3d3d3", "LightGray"],
+    ["c0c0c0", "Silver"],
+    ["a9a9a9", "DarkGray"],
+    ["808080", "Gray"],
+    ["696969", "DimGray"],
+    ["778899", "LightSlateGray"],
+    ["708090", "SlateGray"],
+    ["2f4f4f", "DarkSlateGray"],
+    ["000000", "Black"]
 ];
 
 var lazy = {
