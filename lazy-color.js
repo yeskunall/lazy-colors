@@ -123,6 +123,24 @@ names = [
     ["a0522d", "Sienna"],
     ["a52a2a", "Brown"],
     ["800000", "Maroon"],
+    // WHITE
+    ["ffffff", "White"],
+    ["fffafa", "Snow"],
+    ["f0fff0", "Honeydew"],
+    ["f5fffa", "MintCream"],
+    ["f0ffff", "Azure"],
+    ["f0f8ff", "AliceBlue"],
+    ["f8f8ff", "GhostWhite"],
+    ["f5f5f5", "Whitesmoke"],
+    ["fff5ee", "Seashell"],
+    ["f5f5dc", "Beige"],
+    ["fdf5e6", "OldLace"],
+    ["fffaf0", "FloralWhite"],
+    ["fffff0", "Ivory"],
+    ["faebd7", "AntiqueWhite"],
+    ["faf0e6", "Linen"],
+    ["fff0f5", "LavenderBlush"],
+    ["ffe4e1", "MistyRose"],
 ];
 
 var lazy = {
