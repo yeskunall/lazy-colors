@@ -23,7 +23,19 @@ names = [
     ["ff6347","Tomato"],
     ["ff4500","OrangeRed"],
     ["ff8c00","DarkOrange"],
-    ["","Orange"],
+    ["ffa500","Orange"],
+    // YELLOW
+    ["ffd700", "Gold"],
+    ["ffff00", "Yellow"],
+    ["ffffe0", "LightYellow"],
+    ["ffacd", "LemonChiffon"],
+    ["fafad2", "LightGoldenRodYellow"],
+    ["ffefd5", "PapayaWhip"],
+    ["ffe4b5", "Moccasin"],
+    ["ffdab9", "PeachPuff"],
+    ["eee8aa", "PaleGoldenRod"],
+    ["f0e68c", "Khaki"],
+    ["bdb76b", "DarkKhaki"],
 ];
 
 var lazy = {
