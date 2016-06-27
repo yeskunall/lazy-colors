@@ -4,13 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lazy Colors &mdash; Give a name to your SCSS color variables!</title>
+    <title>Lazy Colors &mdash; Give a name to your SCSS color variable!</title>
     <link rel="stylesheet" href="dist/style.css">
 </head>
 
 <body>
+
+    <div class="hit-box">
+        <h1>Lazy Colors</h1>
+        <p>Simple tool that gives a name to your SCSS color variables</p>
+        <div class="scss">
+            <div class="colors">
+                <p id="color"></p>
+                <p id="name"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+
     <script src="vendor/js/jquery.min.js"></script>
-    <script src="public/js/lazy-color.js"></script>
+    <script src="vendor/js/clipboard.min.js"></script>
+    <script src="dist/lazy-color.js"></script>
 </body>
 
 </html>
