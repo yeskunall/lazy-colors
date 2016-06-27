@@ -19,11 +19,11 @@ names = [
     ["c71585", "MediumVioletRed"],
     ["db7093", "PaleVioltedRed"],
     // ORANGE
-    ["ff7f50","Coral"],
-    ["ff6347","Tomato"],
-    ["ff4500","OrangeRed"],
-    ["ff8c00","DarkOrange"],
-    ["ffa500","Orange"],
+    ["ff7f50", "Coral"],
+    ["ff6347", "Tomato"],
+    ["ff4500", "OrangeRed"],
+    ["ff8c00", "DarkOrange"],
+    ["ffa500", "Orange"],
     // YELLOW
     ["ffd700", "Gold"],
     ["ffff00", "Yellow"],
@@ -36,6 +36,26 @@ names = [
     ["eee8aa", "PaleGoldenRod"],
     ["f0e68c", "Khaki"],
     ["bdb76b", "DarkKhaki"],
+    // PURPLE
+    ["e6e6fa", "Lavender"],
+    ["d8bfd8", "Thistle"],
+    ["dda0dd", "Plum"],
+    ["ee82ee", "Violet"],
+    ["da70d6", "Orchid"],
+    ["ff00ff", "Fuchsia"],
+    ["ff00ff", "Magenta"],
+    ["ba55d3", "MediumOrchid"],
+    ["9370db", "MediumPurple"],
+    ["663399", "RebeccaPurple"],
+    ["8a2be2", "BlueViolet"],
+    ["9400d3", "DarkViolet"],
+    ["9932cc", "DarkOrchid"],
+    ["8b008b", "DarkMagenta"],
+    ["800080", "Purple"],
+    ["4b0082", "Indigo"],
+    ["6a5acd", "SlateBlue"],
+    ["483d8b", "DarkSlateBlue"],
+    ["7b68ee", "MediumSlateBlue"],
 ];
 
 var lazy = {
