@@ -80,6 +80,32 @@ names = [
     ["20b2aa", "LightSeaGreen"],
     ["008b8b", "DarkCyan"],
     ["008080", "Teal"],
+    // BLUE
+    ["00ffff", "Aqua"],
+    ["00ffff", "Cyan"],
+    ["e0ffff", "LightCyan"],
+    ["afeeee", "PaleTurquoise"],
+    ["7fffd4", "Aquamarine"],
+    ["40e0d0", "Turquoise"],
+    ["48d1cc", "MediumTurquoise"],
+    ["00ced1", "DarkTurquoise"],
+    ["5f93a0", "CadetBlue"],
+    ["4682b4", "SteelBlue"],
+    ["b0c4de", "LightSteelBlue"],
+    ["b0e0e6", "PowderBlue"],
+    ["add8e6", "LightBlue"],
+    ["87ceeb", "SkyBlue"],
+    ["87cefa", "LightSkyBlue"],
+    ["00bfff", "DeepSkyBlue"],
+    ["1e90ff", "DodgerBlue"],
+    ["6495ed", "CornflowerBlue"],
+    ["4169e1", "RoyalBlue"],
+    ["0000ff", "Blue"],
+    ["0000cd", "MediumBlue"],
+    ["00008b", "DarkBlue"],
+    ["000080", "Navy"],
+    ["191970", "MidnightBlue"],
+
 ];
 
 var lazy = {
@@ -89,5 +115,3 @@ var lazy = {
         return names[index];
     },
 };
-
-lazy.init();
