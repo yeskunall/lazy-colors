@@ -2,16 +2,23 @@
 
 $(document).ready(function() {
 
+    // when the browser loads the site for the first time
+    // need to add something here
+
     $('.scss').hide();
+    $('.variable').hide();
 
     $('body').click(function() {
         res = lazy.init();
         color = "#" + res[0].toUpperCase();
         name = res[1].toUpperCase();
+        _var = "$" + name + ": " + color + ";";
         $(this).css('background-color', color);
         $('.scss').show();
         $('#color').html(color);
         $('#name').html(name);
+        $('.variable').show();
+        $('#var').html(_var);
     });
 
 });
