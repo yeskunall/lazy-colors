@@ -18,6 +18,12 @@ names = [
     ["ff1493", "DeepPink"],
     ["c71585", "MediumVioletRed"],
     ["db7093", "PaleVioltedRed"],
+    // ORANGE
+    ["ff7f50","Coral"],
+    ["ff6347","Tomato"],
+    ["ff4500","OrangeRed"],
+    ["ff8c00","DarkOrange"],
+    ["","Orange"],
 ];
 
 var lazy = {
