@@ -1,14 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Nunito:300,400,700';
-@mixin pos {
-    left: 50%;
+@mixin pos($left, $top) {
+    left: $left;
     position: absolute;
-    top: 30%;
-    transform: translate(-50%,-30%);
+    top: $top;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    z-index: -1;
 }
 *::after,
 *::before {
@@ -20,8 +20,6 @@ html {
 }
 body {
     color: #fff;
-    height: 100vh;
-    max-height: 100%;
 }
 .button {
     background-color: inherit;
@@ -32,7 +30,8 @@ body {
     font-size: 2.3rem;
     margin-top: 15px;
     outline: none;
-    padding: 2% 3%;
+    padding: 10px 1%;
+    text-align: center;
     transition: border-bottom-color 0.3s ease-in-out;
 }
 .button:hover {
@@ -42,10 +41,11 @@ body {
 .colors {
     margin-top: 5%;
 }
-.hit-box {
-    @include pos;
+.content {
+    @include pos(50%, 30%);
     text-align: center;
-    z-index: 999;
+    transform: translate(-50%,-30%);
+    z-index: -1;
     h1 {
         font-size: 7.2rem;
     }
@@ -53,12 +53,24 @@ body {
         font-size: 3.6rem;
     }
 }
+.hit-box {
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100vw;
+    z-index: -1;
+}
 .scss {
     display: none;
     text-align: center;
     p {
         font-size: 2.7rem;
     }
+}
+#var {
+    @include pos(50%, 60%);
+    transform: translate(-50%,-60%);
+    z-index: 1;
 }
 .variable {
     margin-top: 25px;
