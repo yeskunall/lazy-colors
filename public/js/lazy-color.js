@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     init();
 
-    function init() {
+    function init () {
         res = lazy.run();
         color = "#" + res[0].toUpperCase();
         name = res[1].toUpperCase();
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     new Clipboard('.button');
 
-    $('body').click(function() {
+    $('.hit-box').click(function() {
         init();
     });
 
