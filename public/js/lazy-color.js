@@ -15,7 +15,10 @@ $(document).ready(function() {
         color = "#" + res[0].toUpperCase();
         name = res[1].toUpperCase();
         _var = "$" + name.toLowerCase() + ": " + color + ";";
-        $('body').css('background-color', color);
+        $('body').css({
+            'background-color': color,
+            'color': lazy.getColorContrast(color)
+        });
         $('.scss').show();
         $('#color').html(color);
         $('#name').html(name);
@@ -187,8 +190,16 @@ names = [
 
 var lazy = {
     run: function() {
-        var index;
-        index = Math.floor(names.length * Math.random());
-        return names[index];
+        return names[Math.floor(names.length * Math.random())];
     },
+
+    getColorContrast: function(hexcolor){
+        hexcolor = hexcolor.replace('#', '');
+        var r = parseInt(hexcolor.substr(0,2),16);
+        var g = parseInt(hexcolor.substr(2,2),16);
+        var b = parseInt(hexcolor.substr(4,2),16);
+        var yiq = ((r*299)+(g*587)+(b*114))/1000;
+        console.log(yiq, hexcolor);
+        return (yiq >= 128) ? 'black' : 'white';
+    }
 };
